@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRUM KIT Andreia </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>DRUM KIT</header>
+        
+        <audio id='sound1' src="../5 DRUM KIT/sounds/1boom.wav"></audio>
+        <audio id='sound2' src="../5 DRUM KIT/sounds/2clap.wav"></audio>
+        <audio id='sound3' src="../5 DRUM KIT/sounds/3hihat.wav"></audio>
+        <audio id='sound4' src="../5 DRUM KIT/sounds/4kick.wav"></audio>
+        <audio id='sound5' src="../5 DRUM KIT/sounds/5openhat.wav"></audio>
+        <audio id='sound6' src="../5 DRUM KIT/sounds/6ride.wav"></audio>
+        <audio id='sound7' src="../5 DRUM KIT/sounds/7snare.wav"></audio>
+        <audio id='sound8' src="../5 DRUM KIT/sounds/8tink.wav"></audio>
+        <audio id='sound9' src="../5 DRUM KIT/sounds/9tom.wav"></audio>
+   
+
+        <div id ="botão"> 
+            <button id="a" onclick="executeAction('a', 'sound1')">A</button>
+            <button id="s" onclick="executeAction('s','sound2')">S</button>
+            <button id="d" onclick="executeAction('d','sound3')">D</button>
+            <button id="f" onclick="executeAction('f','sound4')">F</button>
+            <button id="g" onclick="executeAction('g','sound5')">G</button>
+            <button id="h" onclick="executeAction('h','sound6')">H</button>
+            <button id="j" onclick="executeAction('j','sound7')">J</button>
+            <button id="k" onclick="executeAction('k','sound8')">K</button>
+            <button id="l" onclick="executeAction('l','sound9')">L</button>
+        </div>
+
+    </main>
+    
+    <script src="drumkit.js"></script>
+    
+</body>
+</html>

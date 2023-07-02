@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Registo de clientes</title>
+</head>
+<body>
+
+    <header> 
+        <h1>Registo de Clientes </h1> 
+    </header>
+
+    <main>
+        <button id="regist">Registar Cliente</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telemóvel</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td> <button id="edit" class="buttonaction">Editar</button> <button id="delete" class="buttonaction">Apagar</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <div class="container">
+            <form id="clientForm">
+            <div class="title">
+                <h2>Novo Cliente </h2>
+                <button id="close">X</button>
+            </div>
+            <div class="row">
+                <input type="text" name="clientName" id="clientName" placeholder="Nome do Cliente" required> 
+                <input type="email" name="clientEmail" id="clientEmail" placeholder="E-mail do Cliente" required>
+            </div>
+            <div class="row">
+                <input type="number" name="clientNumber" id="clientNumber" placeholder="Telemóvel do Cliente" required>  
+                <input type="text" name="clientAddress" id="clientAddress" placeholder="Cidade do Cliente" required>  
+            </div>
+
+            <div class="buttonColor">
+                <button id="save">Salvar</button> 
+                <button id="cancel">Cancelar</button> 
+            </div>
+
+        </form>
+     
+
+        </div>
+
+    </main>
+
+    <footer>
+        Copyright © Andreia Rodrigues (baseado github.com/fernandoleonid/mini-projetos-js)
+    </footer>
+
+    <script src="registoclientes.js"></script>
+</body>
+</html>

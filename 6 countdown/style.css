@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:url("../6\ Countdown/img/bg.jpg") left center no-repeat fixed;
+    background-size:auto;
+    background-color: rgba(10,23,55,0.5);
+    position: relative;
+    height:96vh;
+    
+}
+
+main{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+
+}
+
+header{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+h1{
+    font-size: 8vw;
+    font-weight:bolder; 
+    margin-bottom:0px;
+    text-shadow: 0 0 10px rgb(20, 19, 19);
+}
+
+h2{
+    font-size: 2.5vw;
+    margin-top:0px;
+}
+
+
+div#container{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+button{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+button:hover{
+    color:white;
+    background-color: black;
+    border:  1px solid white;
+    cursor:pointer;
+}

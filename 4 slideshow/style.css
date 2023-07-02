@@ -1,0 +1,94 @@
+main{
+    height: 96vh;
+    width: 96vw;
+    position: relative;
+
+}
+
+div> img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -20px 20px 50px black;
+    border-radius: 20px;
+    border:  0.5em solid black;
+    width: 65%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+
+
+
+button#butleft{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-330%, -50%);
+    border-radius: 10px;
+    width: 10%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    color: white;
+    font-size: larger;
+    overflow: hidden;
+}
+
+
+button#butleft:hover{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-330%, -50%);
+    border-radius: 10px;
+    width: 10%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.785);
+    color: white;
+    font-size: larger;
+    transition: all 1s;
+}
+
+
+
+button#butright{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(230%, -50%);
+    border-radius: 10px;
+    width: 10%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    color: white;
+    font-size: larger;
+    overflow: hidden;
+}
+
+button#butright:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(230%, -50%);
+    border-radius: 10px;
+    width: 10%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.717);
+    color: white;
+    font-size: larger;
+    transition: all 1s;
+}

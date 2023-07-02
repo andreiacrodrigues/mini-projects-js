@@ -1,0 +1,63 @@
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("../5\ DRUM\ KIT/img/back.jpg");
+    background: black url("../5\ DRUM\ KIT/img/back.jpg") left bottom no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    width:96vw;
+    height: 96vh;
+}
+
+@media screen and (min-width:1400px){
+    body{
+        background: black url("../5\ DRUM\ KIT/img/back.jpg") left bottom no-repeat fixed;
+        background-size: cover;
+    }
+
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    font-size: 10vw;
+    color: rgb(244, 197, 9);
+    text-shadow: 2px 2px 20px rgb(7, 7, 7);
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+div{
+    width: 96vw;
+    height: 35vh;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+main>div>button{
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background-color: rgba(0, 0, 0, 0.806);
+    border: 4px solid white;
+    color: white;
+    font-size: 200%;
+    transition: all 0.1s ease;
+}
+
+.active{
+    transform: scale(1.2);
+    border-color: rgb(225, 225, 17);
+    box-shadow: 0 0 50px #ffcc00;
+}
+

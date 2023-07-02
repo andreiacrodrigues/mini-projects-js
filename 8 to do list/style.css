@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(10, 105, 127);
+    height: 96vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+main{
+    width:80%;
+    display:flex;
+    flex-flow:column;
+    margin: auto;
+}
+
+div#title{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    width:60%;
+    height:80px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    display:flex;
+    flex-flow:column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.task{ 
+    background-color: rgba(65, 70, 72, 0.812);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width:60%;
+    height:70px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task:hover{ 
+    background-color:rgb(155, 204, 223);
+    color: rgb(1, 1, 1);
+    transition:all .6s ease;
+    cursor: pointer;
+}
+
+.task-text{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.task-check{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px; 
+}
+
+.task-button{
+    font-weight: bolder;
+    font-size: 1em;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.task-text--checked {
+    text-decoration: line-through;
+}
+
+input[type="text"]{ /*ESCREVER NA NEWWRITE*/
+    background-color: rgba(143, 185, 204, 0.929);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width:60%;
+    height:80px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    display:flex;
+    flex-flow:column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*.input[type="checkbox"] { /*CHECK
+    height: 30px;
+    width: 30px;
+}
+
+ .input[type="button"] { /*BOTÃO
+    font-weight: bolder;
+    font-size: 1em;
+    height: 30px;
+    width: 30px;
+}
+
+div#list{
+    background-color: rgb(189, 217, 226);
+    font-size: 1.5em;
+    font-weight: bolder;
+    width:60%;
+    height:70px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px; 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+div#list:hover{
+    background-color:rgba(65, 70, 72, 0.812);
+    color: white;
+    transition:all .6s ease;
+    cursor: pointer;
+}
+*/

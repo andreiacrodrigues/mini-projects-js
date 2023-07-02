@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Andreia</title>
+</head>
+<body>
+    <div id ="calculadora">
+
+        <div id="resultado">
+            total
+        </div>
+
+        <div id="teclas">
+            <button onclick="clean()" id="ce"> CE </button>
+            <button onclick="clean()" id="c">C</button>
+            <button onclick="cleanOne()" id ="delete">&#171</button>
+            <button onclick="operation('/')" id="/">/</button>
+            <button onclick="addNumber(7)" id="7">7</button>
+            <button onclick="addNumber(8)" id="8">8</button>
+            <button onclick="addNumber(9)" id="9">9</button>
+            <button onclick="operation('*')" id="*">*</button>
+            <button onclick="addNumber(4)" id="4">4</button>
+            <button onclick="addNumber(5)" id="5">5</button>
+            <button onclick="addNumber(6)" id="6">6</button>
+            <button onclick="operation('-')" id="-">-</button>
+            <button onclick="addNumber(1)" id="1">1</button>
+            <button onclick="addNumber(2)" id="2">2</button>
+            <button onclick="addNumber(3)" id="3">3</button>
+            <button onclick="operation('+')" id="+">+</button>
+            <button onclick="conversion('')" id="±">±</button>
+            <button onclick="addNumber(0)" id="0">0</button>
+            <button onclick="addNumber(',')" id=','>, </button>
+            <button onclick="calc()" id="=">=</button> 
+        </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

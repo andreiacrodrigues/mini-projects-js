@@ -1,0 +1,166 @@
+
+/*NORMAL SITE*/
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#e2ca93;
+    height: 96vh;
+}
+
+header{
+    background-color:#615332;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding: 1px;
+    margin-bottom: 0px;
+}
+
+main{
+    background-color:#e2ca93;
+    border: 1px solid #e2ca93;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px #615332;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+button#regist{
+    background-color:#615332;
+    font-size: 1em;
+    color: white;
+    width:200px;
+    height: 40px;
+    margin: 20px;
+}
+
+table{
+    margin:20px;
+}
+
+thead{
+    background-color:#615332;
+    color: white;  
+}
+
+tbody{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+table> tbody> th:hover{
+    background-color: white;
+}
+
+.buttonaction{
+    display: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+/*NEW CONTAINER - NEW CLIENTS*/
+.container{
+    width: 60%;
+    height: 200px;
+    box-shadow: 2px 2px 8px #615332;
+    background-color:#E0AD32;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    display:none;
+    position: fixed;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    width: 100%;
+    height: 50px;
+    background-color: #615332;
+    border-radius: 5px 5px 0px 0px;
+    color:white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    flex-grow: 1;
+}
+
+button#close{
+    background-color: #615332;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin: 5px;
+    padding: 10px;
+}
+
+button#close:hover{
+    background-color:#E0AD32;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 30px;
+    width: 45%;
+    margin: 5px;
+    margin-top:15px;
+    background-color: white; 
+    border: none;
+}
+
+.buttonColor{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    margin: 5px;
+}
+
+.overlay {
+    background-color: rgba(117, 113, 113, 0.5);
+}
+
+
+
+
+
+/*
+#614A15
+#e2ca93
+#E0AD32
+#615332
+#AD8526
+*/
