@@ -2,8 +2,8 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("../5\ DRUM\ KIT/img/back.jpg");
-    background: black url("../5\ DRUM\ KIT/img/back.jpg") left bottom no-repeat fixed;
+    background-image: url("../5.drum-kit/img/back.jpg");
+    background: black url("../5.drum-kit/img/back.jpg") left bottom no-repeat fixed;
     background-size: cover;
     position: relative;
     width:96vw;
@@ -12,7 +12,7 @@ body{
 
 @media screen and (min-width:1400px){
     body{
-        background: black url("../5\ DRUM\ KIT/img/back.jpg") left bottom no-repeat fixed;
+        background: black url("../5.drum-kit/img/back.jpg") left bottom no-repeat fixed;
         background-size: cover;
     }
 
