@@ -1,12 +1,12 @@
 'use strict'
 
 const images = [
-    { 'id': '1', 'url': "../4 SlideShow/img/office.jpeg" },
-    { 'id': '2', 'url': "../4 SlideShow/img/greys.jpeg" },
-    { 'id': '3', 'url': "../4 SlideShow/img/lost.jpeg"},
-    { 'id': '4', 'url': "../4 SlideShow/img/narcos.jpeg" },
-    { 'id': '5', 'url': "../4 SlideShow/img/peaky.jpeg" },
-    { 'id': '6', 'url': "../4 SlideShow/img/prison.jpeg" },
+    { 'id': '1', 'url': "../4.slideshow/img/office.jpeg" },
+    { 'id': '2', 'url': "../4.slideshow/img/greys.jpeg" },
+    { 'id': '3', 'url': "../4.slideshow/img/lost.jpeg"},
+    { 'id': '4', 'url': "../4.slideshow/img/narcos.jpeg" },
+    { 'id': '5', 'url': "../4.slideshow/img/peaky.jpeg" },
+    { 'id': '6', 'url': "../4.slideshow/img/prison.jpeg" },
 ]
 
 const containerItems = document.querySelector('#container-items')

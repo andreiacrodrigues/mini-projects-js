@@ -3,12 +3,12 @@ let bleft = document.getElementById("butleft")
 let bright = document.getElementById("butright")
 
 let images = [
-    "../4 SlideShow/img/office.jpeg",
-     "../4 SlideShow/img/greys.jpeg",
-      "../4 SlideShow/img/lost.jpeg",
-       "../4 SlideShow/img/narcos.jpeg",
-        "../4 SlideShow/img/peaky.jpeg",
-         "../4 SlideShow/img/prison.jpeg"]
+    "../4.slideshow/img/office.jpeg",
+     "../4.slideshow/img/greys.jpeg",
+      "../4.slideshow/img/lost.jpeg",
+       "../4.slideshow/img/narcos.jpeg",
+        "../4.slideshow/img/peaky.jpeg",
+         "../4.slideshow/img/prison.jpeg"]
 let index = 0
 
 function slideShowRight(){
