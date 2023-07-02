@@ -6,5 +6,5 @@ You can see this mini-projects at https://andreiacrodrigues.github.io/mini-proje
 
 
 
-These mini projects were based on theon github.com/fernandoleonid/mini-projetos-js
+These mini projects were based on github.com/fernandoleonid/mini-projetos-js
 
