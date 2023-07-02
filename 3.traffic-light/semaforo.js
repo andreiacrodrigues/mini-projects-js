@@ -6,20 +6,20 @@ let auto = document.getElementById("auto")
 
 function stop(){
     clearInterval(intervalo);
-    semaforo.setAttribute ("src", "../3 Semaforo/img/vermelho.png")
+    semaforo.setAttribute ("src", "../3.traffic-light/img/vermelho.png")
 }
 
 function danger(){
     clearInterval(intervalo)
-    semaforo.setAttribute ("src", "../3 Semaforo/img/amarelo.png")
+    semaforo.setAttribute ("src", "../3.traffic-light/img/amarelo.png")
 }
 
 function go(){
     clearInterval(intervalo)
-    semaforo.setAttribute ("src", "../3 Semaforo/img/verde.png")
+    semaforo.setAttribute ("src", "../3.traffic-light/img/verde.png")
 }
 
-let imagens = ["../3 Semaforo/img/vermelho.png", "../3 Semaforo/img/amarelo.png", "../3 Semaforo/img/verde.png"]
+let imagens = ["../3.traffic-light/img/vermelho.png", "../3.traffic-light/img/amarelo.png", "../3.traffic-light/img/verde.png"]
 let index = 0
 let intervalo
 

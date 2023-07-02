@@ -9,18 +9,18 @@ function isLampBroken(){
 
 function ligarLamp(){
     if ( !isLampBroken()) {
-        lamp.setAttribute ("src", "../2 Lâmpada/img/ligada.jpg" )
+        lamp.setAttribute ("src", "../2.lamp/img/ligada.jpg" )
     }
 }
 
 function desligarLamp() {
     if ( !isLampBroken()) {
-        lamp.setAttribute ("src", "../2 Lâmpada/img/desligada.jpg")
+        lamp.setAttribute ("src", "../2.lamp/img/desligada.jpg")
     }
 }
 
 function lampBroken(){
-    lamp.setAttribute("src", "../2 Lâmpada/img/quebrada.jpg")
+    lamp.setAttribute("src", "../2.lamp/img/quebrada.jpg")
 }
 
 lamp.addEventListener ('mouseenter', ligarLamp)
